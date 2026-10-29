@@ -1,0 +1,3 @@
+package com.letsplay.api.dto;
+
+public record TokenResponse(String accessToken, String tokenType, long expiresIn) {}
